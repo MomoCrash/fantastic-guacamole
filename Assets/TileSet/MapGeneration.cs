@@ -151,18 +151,18 @@ public class MapGeneration : MonoBehaviour
             SwapSubTile(tile, sub_tile2);
         }
 
-        foreach(var obj in GridObject)
-        {
-            if(obj.GetComponent<Tile>().tile_pos == tile)
-                obj.transform.localScale = Vector3.one * 0.95f;
-            else
-                obj.transform.localScale = Vector3.one;
-        }
+        // foreach(var obj in GridObject)
+        // {
+        //     if(obj.GetComponent<Tile>().tile_pos == tile)
+        //         obj.transform.localScale = Vector3.one * 0.95f;
+        //     else
+        //         obj.transform.localScale = Vector3.one;
+        // }
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawSphere(Position, 2);
+        Gizmos.DrawSphere(Position, 0.1f);
     }
 }
