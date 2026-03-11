@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8c6f44ce062e8f4c9c39c8b8eb5f8ea, type: 3}
+  m_Name: Flat No tree
+  m_EditorClassIdentifier: 
+  Object: {fileID: 5246031830578771452, guid: 190a9e41c5f487f439c1b4e29c2f5a3c, type: 3}
+  Weight: 1
